@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%; 
+   
+}
+#inner{
+    height: 100%;
+    width: 100%;
+    background-image: url(./pizza-4968645_640\ \(1\).jpg);
+    background-size: cover;
+    border: 5px solid red;
+    position: relative;
+}
+#box1{
+    color: white;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 45%;
+    top: 30%;
+    background-color: transparent;
+    border: whitesmoke solid 5px;
+    border-radius: 10px;
+    padding: 16px;
+    
+}
+#box2{
+    color: white;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 70%;
+    top: 30%;
+    background-color: transparent;
+    border: whitesmoke solid 5px;
+    border-radius: 10px;
+    padding: 16px;
+
+  
+}
+#box3{
+    color: white;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 45%;
+    top: 70%;
+    background-color: transparent;
+    border: whitesmoke solid 5px;
+    border-radius: 10px;
+    padding: 16px;
+}
+#box4{
+    color: white;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 70%;
+    top: 70%;
+    background-color: transparent;
+    border: whitesmoke solid 5px;
+    border-radius: 10px;
+    padding: 16px;
+}
+#box5{
+    height: auto;
+    width: 170px;
+    background-color:transparent;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 15%;
+    top: 43%;
+}
+#bg1{   
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    color: white;
+
+
+}
+#bg{
+    height: 30px;
+    width: 250px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+#logo{
+    height: auto;
+    width: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 8%;
+    left: 13%;
+}
+#navigation{
+    width: 700px;
+    height: 30px;
+    color: white;
+    border-radius: 4px;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left:76%;
+    top: 3%;
+
+}
